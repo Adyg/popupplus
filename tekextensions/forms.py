@@ -7,7 +7,8 @@ def normalize_model_name(model_name):
         normal_model_name = model_name.capitalize()
     else:
         normal_model_name = model_name
-
+    if normal_model_name == 'Original_intention':
+        normal_model_name = 'Intentions'
     return normal_model_name
 
 
